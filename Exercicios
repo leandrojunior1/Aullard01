@@ -12,22 +12,3 @@ int main() {
 
     return 0;
 }
-
-//2
-#include <stdio.h>
-
-int main() {
-
-    int num_1, num_2;
-    printf("Digite o primeiro valor: ");
-    scanf("%d", &num_1);
-	printf("Digite o segundo valor : ");
-    scanf("%d", &num_2);
-
-    printf("Soma: %d\n", num_1 + num_2);
-    printf("Subtracao: %d\n", num_1 - num_2);
-    printf("Multiplicacao: %d\n", num_1 * num_2);
-
-
-    return 0;
-}
